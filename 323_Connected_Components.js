@@ -1,10 +1,3 @@
-let n = 5;
-let edges = [
-  [0, 1],
-  [1, 2],
-  [3, 4],
-];
-
 const buildAdjList = (n, edges) => {
   const adjList = Array.from({ length: n }, () => []);
 
